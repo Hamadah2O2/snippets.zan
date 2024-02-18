@@ -1,0 +1,27 @@
+{
+	"php echo": {
+		"prefix": "phpp",
+		"body": [
+			"<?= $1 ?>"
+		],
+		"description": "Php echo"
+	}
+
+	"CI Views Extend": {
+		"prefix": "ciextend",
+		"body": [
+			"<?= \\$this->extend('$1') ?>"
+		],
+		"description": "extend an views"
+	}
+
+	"CI Views Extend": {
+		"prefix": "cisection",
+		"body": [
+			"<?= \\$this->section('$1') ?>",
+			"	$2",
+			"<?= \\$this->endSection() ?>"
+		],
+		"description": "extend an views"
+	}
+}

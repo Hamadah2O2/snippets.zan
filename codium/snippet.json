@@ -1,5 +1,5 @@
 {
-	"php echo": {
+	"Php Echo": {
 		"prefix": "phpp",
 		"body": [
 			"<?= $1 ?>"
@@ -10,18 +10,34 @@
 	"CI Views Extend": {
 		"prefix": "ciextend",
 		"body": [
-			"<?= \\$this->extend('$1') ?>"
+			"<?= \\$this->extend(\"$1\") ?>"
 		],
 		"description": "extend an views"
 	}
 
-	"CI Views Extend": {
+	"CI Section": {
 		"prefix": "cisection",
 		"body": [
 			"<?= \\$this->section('$1') ?>",
-			"	$2",
+			"$2",
 			"<?= \\$this->endSection() ?>"
 		],
-		"description": "extend an views"
+		"description": "set view section"
+	}
+
+	"CI render section": {
+		"prefix": "cirendersec",
+		"body": [
+			"<?= \\$this->renderSection('$1') ?>"
+		],
+		"description": "render view section"
+	}
+
+	"this go": {
+		"prefix": "phpt",
+		"body": [
+			"<?= \\$this->$1 ?>"
+		],
+		"description": "go $this->"
 	}
 }

@@ -7,6 +7,14 @@
 		"description": "Php echo"
 	}
 
+	"Php cell": {
+		"prefix": "phpt",
+		"body": [
+			"<?php $1 ?>"
+		],
+		"description": "Php kurung php"
+	}
+
 	"CI Views Extend": {
 		"prefix": "ciextend",
 		"body": [

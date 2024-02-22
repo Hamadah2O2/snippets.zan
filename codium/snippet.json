@@ -8,7 +8,7 @@
 	}
 
 	"Php cell": {
-		"prefix": "phpt",
+		"prefix": "php",
 		"body": [
 			"<?php $1 ?>"
 		],

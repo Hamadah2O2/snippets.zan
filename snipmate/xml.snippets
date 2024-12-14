@@ -1,0 +1,64 @@
+# Tag without closure
+snippet te 
+	<${1:name} ${2:} />
+
+# Create quote?
+snippet quot 
+	&quot;${1:text}&quot;
+
+# Create and &
+snippet amp 
+	&amp;
+
+# <
+snippet lt  
+	&lt;
+
+# >
+snippet gt  
+	&gt;
+
+# declare tag
+snippet declare 
+	<declare name="${1:}" type="${2:Integer}" array="${3:False}" size="${4:}" />
+
+# assign tag
+snippet assign 
+	<assign variable="${1:variable}" expression="${2:expression}" />
+
+# While state
+snippet while 
+	<while expression="${1:expression}">
+		${2:}
+	</while>
+
+# Input tag
+snippet input 
+	<input variable="${1:}" />
+
+# Output tag
+snippet output 
+	<output expression="${1:}" newline="${2:True}" />
+
+# If tag
+snippet if 
+	<if expression="${1:}">
+	  <then>
+			${2}
+	  </then>
+	  <else>
+			${3}
+	  </else>
+	</if>
+
+# Make an function
+snippet function  
+	<function name="${1:}" type="${2:String}" variable="${3:Var}">
+	    <parameters>
+	        ${4:<parameter name="${5:}" type="${6:String}" array="${7:False}"/>}
+	    </parameters>
+	    <body>
+					${8:}
+	    </body>
+	</function>
+

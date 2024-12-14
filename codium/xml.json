@@ -1,0 +1,84 @@
+{
+    "Tag without closure": {
+        "prefix": "te",
+        "body": "<${1:name} ${2:} />",
+        "description": "Tag without closure"
+    },
+    "Create quote": {
+        "prefix": "quot",
+        "body": "&quot;${1:text}&quot;",
+        "description": "Create quote?"
+    },
+    "Create and &": {
+        "prefix": "amp",
+        "body": "&amp;",
+        "description": "Create and &"
+    },
+    "Less than": {
+        "prefix": "lt",
+        "body": "&lt;",
+        "description": "Less than"
+    },
+    "Greater than": {
+        "prefix": "gt",
+        "body": "&gt;",
+        "description": "Greater than"
+    },
+    "Declare tag": {
+        "prefix": "declare",
+        "body": "<declare name=\"${1:}\" type=\"${2:Integer}\" array=\"${3:False}\" size=\"${4:}\" />",
+        "description": "Declare tag"
+    },
+    "Assign tag": {
+        "prefix": "assign",
+        "body": "<assign variable=\"${1:variable}\" expression=\"${2:expression}\" />",
+        "description": "Assign tag"
+    },
+    "While state": {
+        "prefix": "while",
+        "body": [
+            "<while expression=\"${1:expression}\">",
+            "\t${2:}",
+            "</while>"
+        ],
+        "description": "While state"
+    },
+    "Input tag": {
+        "prefix": "input",
+        "body": "<input variable=\"${1:}\" />",
+        "description": "Input tag"
+    },
+    "Output tag": {
+        "prefix": "output",
+        "body": "<output expression=\"${1:&quot;${2:}&quot;}\" newline=\"${3:True}\" />",
+        "description": "Output tag"
+    },
+    "If tag": {
+        "prefix": "if",
+        "body": [
+            "<if expression=\"${1:}\">",
+            "  <then>",
+            "\t\t${2}",
+            "  </then>",
+            "  <else>",
+            "\t\t${3}",
+            "  </else>",
+            "</if>"
+        ],
+        "description": "If tag"
+    },
+    "Make a function": {
+        "prefix": "function",
+        "body": [
+            "<function name=\"${1:}\" type=\"${2:String}\" variable=\"${3:Var}\">",
+            "    <parameters>",
+            "        ${4:<parameter name=\"${5:}\" type=\"${6:String}\" array=\"${7:False}\"/>}",
+            "    </parameters>",
+            "    <body>",
+            "\t\t\t${8:}",
+            "    </body>",
+            "</function>"
+        ],
+        "description": "Make a function"
+    }
+}

@@ -1,3 +1,3 @@
-# Zan's Custom Snippet
-just mini snippet for vscode / codium &amp; by Hamadah2O2
+# Zan Snippet's
+My personal snippets for vscode / codium, luasnip and snipmate &amp; by Hamadah2O2
 

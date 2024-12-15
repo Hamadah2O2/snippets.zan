@@ -5,7 +5,7 @@
 			"<?= $1 ?>"
 		],
 		"description": "Php echo"
-	}
+	},
 
 	"Php cell": {
 		"prefix": "php",
@@ -13,7 +13,7 @@
 			"<?php $1 ?>"
 		],
 		"description": "Php kurung php"
-	}
+	},
 
 	"CI Views Extend": {
 		"prefix": "ciextend",
@@ -21,7 +21,7 @@
 			"<?= \\$this->extend(\"$1\") ?>"
 		],
 		"description": "extend an views"
-	}
+	},
 
 	"CI Section": {
 		"prefix": "cisection",
@@ -31,7 +31,7 @@
 			"<?= \\$this->endSection() ?>"
 		],
 		"description": "set view section"
-	}
+	},
 
 	"CI render section": {
 		"prefix": "cirendersec",
@@ -39,7 +39,7 @@
 			"<?= \\$this->renderSection('$1') ?>"
 		],
 		"description": "render view section"
-	}
+	},
 
 	"this go": {
 		"prefix": "phpt",

@@ -10,6 +10,12 @@
       },
       {
         "language": [
+          "html"
+        ],
+        "path": "./hugo.json"
+      },
+      {
+        "language": [
           "php"
         ],
         "path": "./php.json"
